@@ -21,53 +21,22 @@
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Designing application for elastic load, not predictive load">
 <meta name=twitter:description content>
-<meta data-name=palette content="teal"><link rel=preload href=/css/bundle.min.584ad61bfb9121e174610ca0716e7303fbd4708cb91ca3f4b802d8d6d4745f84.css integrity="sha256-WErWG/uRIeF0YQygcW5zA/vUcIy5HKP0uALY1tR0X4Q=" crossorigin=anonymous as=style onload="this.rel='stylesheet'">
-<noscript><link rel=stylesheet href=/css/bundle.min.584ad61bfb9121e174610ca0716e7303fbd4708cb91ca3f4b802d8d6d4745f84.css integrity="sha256-WErWG/uRIeF0YQygcW5zA/vUcIy5HKP0uALY1tR0X4Q=" crossorigin=anonymous></noscript><script src=/js/bundle.min.1b355f6f07fa404b74a69aa002c016dc63dae903950cb84d540f0f60675460c1.js integrity="sha256-GzVfbwf6QEt0ppqgAsAW3GPa6QOVDLhNVA8PYGdUYME=" crossorigin=anonymous></script>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','G-ZC30LSGESM','auto'),ga('send','pageview'))</script>
-<script async src=https://www.google-analytics.com/analytics.js></script>
-</head><body><header><nav class="navbar navbar-expand-xl fixed-top">
+<link rel=preload href=/css/bundle.min.6883940c84fab3c16510baa194a791ba629182cbb612c86e3cc2f92b4c1b6109.css integrity="sha256-aIOUDIT6s8FlELqhlKeRumKRgsu2EshuPML5K0wbYQk=" crossorigin=anonymous as=style onload="this.rel='stylesheet'">
+<noscript><link rel=stylesheet href=/css/bundle.min.6883940c84fab3c16510baa194a791ba629182cbb612c86e3cc2f92b4c1b6109.css integrity="sha256-aIOUDIT6s8FlELqhlKeRumKRgsu2EshuPML5K0wbYQk=" crossorigin=anonymous></noscript><script src=/js/bundle.min.9804d6e8b9e32a8495de390eed0c6cdad501f8760de297ca42eddb2f73197569.js integrity="sha256-mATW6LnjKoSV3jkO7Qxs2tUB+HYN4pfKQu3bL3MZdWk=" crossorigin=anonymous></script></head>
+<body><script src=/js/bootstrap.min.b5d86dd3a5f60c90be38a252bb65fc1a2732f32e71dc12c051720f0c7aef3cde.js integrity="sha256-tdht06X2DJC+OKJSu2X8Gicy8y5x3BLAUXIPDHrvPN4=" crossorigin=anonymous></script><header><nav class="navbar top-app-bar top-app-bar-expand-lg fixed-top">
 <div class=container>
-<a class=navbar-brand href=/>
-<img class=logo alt=Logo src=/images/Akshay_Bansod_logo.png width=64 height=64 loading=lazy>
-Akshay Bansod</a>
-<button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
-<span class=navbar-toggler-icon></span>
+<button class="navbar-settings me-1" type=button data-bs-toggle=offcanvas data-bs-target=#offcanvasSettings aria-controls=offcanvasSettings aria-label="Toggle settings">
+<i class="fas fa-bars"></i>
 </button>
-<div class="collapse navbar-collapse" id=navbarSupportedContent>
-<ul class="navbar-nav me-1 mb-2 mb-lg-0"><form class="search-bar d-flex ms-1" action=/search>
-<div class="input-group input-group-sm">
-<button class="btn btn-search disabled position-absolute left-0" type=submit aria-label=submit><i class="fas fa-fw fa-search"></i></button>
-<input class="form-control rounded-pill" id=searchQuery name=q type=search aria-label=Search>
-</div>
-</form></ul><ul class="navbar-nav me-1 mb-2 mb-lg-0 me-1 ms-auto"><li class=nav-item>
-<a class=nav-link href=/archives/>
-<i class="fas fa-fw fa-file-archive"></i>Archives
-</a>
-</li><li class=nav-item>
-<a class=nav-link href=/categories/>
-<i class="fas fa-fw fa-folder"></i>Categories
-</a>
-</li><li class=nav-item>
-<a class=nav-link href=/tags/>
-<i class="fas fa-fw fa-tags"></i>Tags
-</a>
-</li><li class=nav-item>
-<a class=nav-link href=/series/>
-<i class="fas fa-fw fa-columns"></i>Series
-</a>
-</li><li class=nav-item>
-<a class=nav-link data-bs-toggle=offcanvas href=#offcanvasSettings role=button aria-controls=offcanvasSettings>
-<i class="fas fa-fw fa-sliders-h"></i> Settings
-</a>
-</li>
-<div class="offcanvas offcanvas-end surface h-100" tabindex=-1 id=offcanvasSettings aria-labelledby=offcanvasSettingsLabel>
+<div class="offcanvas offcanvas-start surface" tabindex=-1 id=offcanvasSettings aria-labelledby=offcanvasSettings>
 <div class=offcanvas-header>
-<h5 class=offcanvas-title w id=offcanvasSettingsLabel><i class="fas fa-fw fa-sliders-h"></i> Settings</h5>
-<a role=button data-bs-dismiss=offcanvas aria-label=Close>
-<span class="fas fa-2x fa-fw fa-times"></span>
-</a>
+<h3 class=offcanvas-title>Settings</h3>
+<button type=button class="btn btn-sm btn-outline-primary" data-bs-dismiss=offcanvas aria-label=Close>
+<i class="fas fa-times"></i>
+</button>
 </div>
-<div class=offcanvas-body><section class=setting>
+<div class=offcanvas-body>
+<section class=setting>
 <form class=row>
 <div class=col-auto>
 <label><i class="fas fa-fw fa-adjust"></i> Mode</label>
@@ -95,27 +64,75 @@ Akshay Bansod</a>
 <label><i class="fas fa-fw fa-palette"></i> Palette</label>
 </div>
 <div class="col-auto ms-auto">
-<span id=btnPalette class="btn btn-sm"><i class="fas fa-eye-dropper"></i></span>
+<a id=btnPalette class="btn btn-sm btn-outline-primary" role=button aria-label=palettePicker>
+<i class="fas fa-eye-dropper"></i>
+</a>
 </div>
 </form>
-<div class="container mt-2 visually-hidden" id=palettePicker>
-<div class=btn-group><button type=button id=palette-blue title=Blue class="btn btn-sm palette bg-blue d-flex align-items-center justify-content-center">
-</button><button type=button id=palette-blue-gray title="Blue Gray" class="btn btn-sm palette bg-blue-gray d-flex align-items-center justify-content-center">
-</button><button type=button id=palette-brown title=Brown class="btn btn-sm palette bg-brown d-flex align-items-center justify-content-center">
-</button><button type=button id=palette-cyan title=Cyan class="btn btn-sm palette bg-cyan d-flex align-items-center justify-content-center">
-</button><button type=button id=palette-green title=Green class="btn btn-sm palette bg-green d-flex align-items-center justify-content-center">
-</button><button type=button id=palette-indigo title=Indigo class="btn btn-sm palette bg-indigo d-flex align-items-center justify-content-center">
-</button><button type=button id=palette-orange title=Orange class="btn btn-sm palette bg-orange d-flex align-items-center justify-content-center">
-</button><button type=button id=palette-pink title=Pink class="btn btn-sm palette bg-pink d-flex align-items-center justify-content-center">
-</button><button type=button id=palette-purple title=Purple class="btn btn-sm palette bg-purple d-flex align-items-center justify-content-center">
-</button><button type=button id=palette-red title=Red class="btn btn-sm palette bg-red d-flex align-items-center justify-content-center">
-</button><button type=button id=palette-teal title=Teal class="btn btn-sm palette bg-teal d-flex align-items-center justify-content-center">
-</button><button type=button id=palette-yellow title=Yellow class="btn btn-sm palette bg-yellow d-flex align-items-center justify-content-center">
-</button></button>
+<div class="mt-2 d-flex visually-hidden" id=palettePicker><button type=button id=palette-blue aria-label=Blue class="btn btn-sm palette" data-palette=blue>
+</button><button type=button id=palette-blue-gray aria-label="Blue Gray" class="btn btn-sm palette" data-palette=blue-gray>
+</button><button type=button id=palette-brown aria-label=Brown class="btn btn-sm palette" data-palette=brown>
+</button><button type=button id=palette-cyan aria-label=Cyan class="btn btn-sm palette" data-palette=cyan>
+</button><button type=button id=palette-green aria-label=Green class="btn btn-sm palette" data-palette=green>
+</button><button type=button id=palette-indigo aria-label=Indigo class="btn btn-sm palette" data-palette=indigo>
+</button><button type=button id=palette-orange aria-label=Orange class="btn btn-sm palette" data-palette=orange>
+</button><button type=button id=palette-pink aria-label=Pink class="btn btn-sm palette" data-palette=pink>
+</button><button type=button id=palette-purple aria-label=Purple class="btn btn-sm palette" data-palette=purple>
+</button><button type=button id=palette-red aria-label=Red class="btn btn-sm palette" data-palette=red>
+</button><button type=button id=palette-teal aria-label=Teal class="btn btn-sm palette" data-palette=teal>
+</button><button type=button id=palette-yellow aria-label=Yellow class="btn btn-sm palette" data-palette=yellow>
+</button></div>
+</section>
+<section class="setting social-share">
+<form class=row>
+<div class=col-auto>
+<label><i class="fas fa-fw fa-share-alt"></i> Share</label>
+</div>
+<div class="col-auto ms-auto">
+<a class="btn btn-sm btn-outline-primary btn-social-share"><i class="fas fa-share"></i></a>
+</div>
+</form>
+<div class="mt-2 social-share-buttons d-flex visually-hidden flex-nowrap">
+<a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Twitter Share Button" target=_blank href="https://twitter.com/intent/tweet?title=Designing%20application%20for%20elastic%20load%2c%20not%20predictive%20load&url=%2fposts%2fdesigning-system-for-elastic-load%2f">
+<i class="fab fa-fw fa-twitter"></i> Twitter
+</a>
+<a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Facebook Share Button" target=_blank href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fdesigning-system-for-elastic-load%2f">
+<i class="fab fa-fw fa-facebook-f"></i> Facebook
+</a>
+</div>
+</section>
 </div>
 </div>
-</section></div>
-</div></ul>
+<a class="navbar-brand me-3" href=/><img class=logo alt=Logo src=/images/Akshay_Bansod_logo.png loading=lazy width=64 height=64>
+Akshay Bansod
+</a>
+<button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
+<i class="fas fa-ellipsis-v"></i>
+</button>
+<div class="collapse navbar-collapse" tabindex=-1 id=navbarSupportedContent aria-labelledby=navbarSupportedContent>
+<form class="search-bar my-1" action=/search>
+<div class="input-group input-group-sm">
+<span class="btn btn-search disabled position-absolute left-0"><i class="fas fa-fw fa-search"></i></span>
+<input class="form-control rounded-pill" name=q type=search aria-label=Search>
+</div>
+</form>
+<ul class="navbar-nav ms-auto"><li class=nav-item>
+<a class=nav-link href=/archives/>
+<i class="fas fa-fw fa-file-archive"></i>Archives
+</a>
+</li><li class=nav-item>
+<a class=nav-link href=/categories/>
+<i class="fas fa-fw fa-folder"></i>Categories
+</a>
+</li><li class=nav-item>
+<a class=nav-link href=/tags/>
+<i class="fas fa-fw fa-tags"></i>Tags
+</a>
+</li><li class=nav-item>
+<a class=nav-link href=/series/>
+<i class="fas fa-fw fa-columns"></i>Series
+</a>
+</li></ul>
 </div>
 </div>
 </nav>
@@ -123,30 +140,33 @@ Akshay Bansod</a>
 <main role=main class=container>
 <div class="row content">
 <div class=col-lg-8>
-<div class=container><nav class=row aria-label=breadcrumb>
-<ol class="breadcrumb surface"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/posts/>Posts</a></li><li class="breadcrumb-item active">Designing Application for Elastic Load, Not Predictive Load</li></ol>
-</nav><article class="post row surface"><div class=post-panel-wrapper>
+<div class=container><nav class="row card component" aria-label=breadcrumb>
+<div class=card-body>
+<ol class=breadcrumb><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/posts/>Posts</a></li><li class="breadcrumb-item active">Designing Application for Elastic Load, Not Predictive Load</li></ol>
+</div>
+</nav><article class="post row card mb-4 component">
+<div class=card-body><div class=post-panel-wrapper>
 <div class="post-panel d-flex flex-column">
 <a id=sidebarToggler class="action d-none d-lg-block" role=button>
-<i class="fas fa-fw fa-expand-alt fa-rotate-45"></i>
+<i class="fas fa-fw fa-expand-arrows-alt"></i>
 </a>
-<a id=btnTOC class="fas fa-fw fa-list-alt" data-bs-toggle=offcanvas href=#offcanvasTOC aria-controls=offcanvasTOC role=button>
+<a data-bs-toggle=offcanvas href=#offcanvasTOC aria-controls=offcanvasTOC role=button>
+<i class="fas fa-fw fa-list-alt"></i>
 </a>
 </div>
 </div>
-<h1 class="post-title my-3">Designing Application for Elastic Load, Not Predictive Load
-</h1><div class="post-meta mb-3"><span class="post-date me-2">
+<h1 class="card-title my-3">Designing Application for Elastic Load, Not Predictive Load
+</h1><div class=post-meta><span class=post-date title="created on">
 <i class="fas fa-fw fa-calendar-alt"></i>Sep 22, 2021
-</span><span class="post-reading-time me-2">
+</span><span class=post-reading-time title="reading time">
 <i class="fas fa-fw fa-coffee"></i>5 min read
-</span><span class=post-taxonomies><a href=/categories/architecture/ class=post-taxonomy>Architecture</a><a href=/tags/system-design/ class=post-taxonomy>System Design</a><a href=/tags/distributed-systems/ class=post-taxonomy>Distributed Systems</a></span>
-</div>
+</span><a href=/categories/architecture/ class=post-taxonomy>Architecture</a><a href=/tags/system-design/ class=post-taxonomy>System Design</a><a href=/tags/distributed-systems/ class=post-taxonomy>Distributed Systems</a></div>
 <div class="post-share mb-3"></div><div class="offcanvas offcanvas-end surface" tabindex=-1 id=offcanvasTOC aria-labelledby=offcanvasTOCLabel>
 <div class=offcanvas-header>
-<h5 class=offcanvas-title id=offcanvasTOCLabel>Table Of Contents</h5>
-<a role=button data-bs-dismiss=offcanvas aria-label=Close>
-<span class="fas fa-2x fa-fw fa-times"></span>
-</a>
+<h2 class=offcanvas-title id=offcanvasTOCLabel>Table Of Contents</h5>
+<button type=button class="btn btn-sm btn-outline-primary" data-bs-dismiss=offcanvas aria-label=Close>
+<i class="fas fa-times"></i>
+</button>
 </div>
 <div class=offcanvas-body>
 <nav id=TableOfContents>
@@ -187,7 +207,7 @@ checkout.</li>
 <li>In a monolith, the entire system is deployed on a single machine. In case of high load on a component affect other
 component&rsquo;s performance, as resources are shared. Whereas each microservice has its dedicated resources.</li>
 </ul>
-<p><img class=img-fluid alt=microservice_architecture src=/images/microservice_architecture.png width=791 height=301 loading=lazy>
+<p><img class=img-fluid alt=microservice_architecture src=/images/microservice_architecture.png loading=lazy width=791 height=301>
 </p>
 <h2 id=modern-cloud-deployment>Modern Cloud Deployment</h2>
 <p>On-premise traditional deployment is not scalable under unpredicted high load, as limited resources are kept reserved
@@ -203,7 +223,7 @@ A Product Catalog Service uses the following persistence -</p>
 <li>NoSQL database for storing users/products/transactions.</li>
 <li>RDBMS for storing metadata for joins and reporting.</li>
 </ul>
-<p><img class=img-fluid alt="ployglot persistance" src=/images/polyglot_persistance.png width=372 height=262 loading=lazy>
+<p><img class=img-fluid alt="ployglot persistance" src=/images/polyglot_persistance.png loading=lazy width=372 height=262>
 </p>
 <h2 id=asynchronous-messaging>Asynchronous Messaging</h2>
 <p>In Asynchronous messaging, a microservice sends a message to another microservice through a queuing system. a
@@ -217,7 +237,7 @@ ordered fashion.</li>
 <li>Multiple consumers subscribe to a queue. Each consumer gets their copy.</li>
 <li>Multiple instances of a consumer could distribute the load.</li>
 </ul>
-<p><img class=img-fluid alt=asynchronous_messaging.svg src=/images/asynchronous_messaging.png width=531 height=301 loading=lazy>
+<p><img class=img-fluid alt=asynchronous_messaging.svg src=/images/asynchronous_messaging.png loading=lazy width=531 height=301>
 </p>
 <h2 id=non-blocking-processing>Non-Blocking Processing</h2>
 <p>In synchronous processing, During I/O operation like an HTTP post request, Thread waits for I/O operation to get
@@ -232,7 +252,7 @@ blocking I/O operation. Hence system I/O throughput increases, the system could 
 <p>An immutable infrastructure is an approach where a newer version of application deployment replaces the previous version
 rather than updating it.</p>
 <p>Rolling-Update and Recreate are popular strategies for deployments.</p>
-<p><img class=img-fluid alt="immutable Infrastructure" src=/images/Immutable_Infrastructure.png width=849 height=234 loading=lazy>
+<p><img class=img-fluid alt="immutable Infrastructure" src=/images/Immutable_Infrastructure.png loading=lazy width=849 height=234>
 </p>
 <h2 id=zero-trust-architecture-for-security>Zero trust architecture for security</h2>
 <p><strong>Defense of perimeter</strong> is a popular concept where a network boundary is created around private systems. Auth Gateways
@@ -242,7 +262,7 @@ were compromised via internal systems.</p>
 <p><strong>Zero Trust Architecture</strong> is a concept where a system must not trust another system or user based on internal or
 external to its perimeter. In simpler words, each system must authenticate and authorize every request irrespective of
 network or organization perimeter.</p>
-<p><img class=img-fluid alt="zero trust architecture" src=/images/zero_trust_network.png width=646 height=580 loading=lazy>
+<p><img class=img-fluid alt="zero trust architecture" src=/images/zero_trust_network.png loading=lazy width=646 height=580>
 </p>
 <h2 id=distributed-logging>Distributed logging</h2>
 <p>Troubleshooting and debugging issues are in the microservice architecture are difficult as requests and responses pass
@@ -263,40 +283,49 @@ microservice must restart itself in case of memory overflow.</p>
 applications require to handle the elastic load. Some applications are built for a smaller user group e.g. employee
 management system, where it is unlikely to have a high load, as the increase in employees will not happen overnight.</p>
 <p>Usually, applications that are exposed to the public domain, require to handle such a huge load and unpredictable
-events.</p></div><hr><div class="post-navs d-flex mb-3 justify-content-between">
-<div class="post-nav w-50"><div class="prev-post btn btn-sm">
+events.</p></div><hr><div class="post-navs d-flex mb-3 justify-content-evenly">
+<div class="post-nav post-prev"><i class="fas fa-fw fa-chevron-left"></i>
 <a href=/about/>About
 </a>
+</div></div></div>
+</article><div class="post-comments card row component">
+<div class=card-body></div>
 </div></div>
-<div class="post-nav flex-row-reverse"></div>
-</div></article><div class="post-comments surface row"></div></div>
 </div><aside class="col-lg-4 sidebar d-flex">
-<div class=container><section class="profile profile-compact surface row">
-<div class="col-xl-6 d-flex align-items-center justify-content-center"><img class="profile-avatar rounded-circle" alt="Akshay Bansod" src=/images/profile.jpeg width=320 height=320 loading=lazy>
+<div class=container>
+<section class="profile profile-compact card row component">
+<div class="col-xl-6 d-flex align-items-center justify-content-center"><img class="profile-avatar rounded-circle" alt="Akshay Bansod" src=/images/profile.jpeg loading=lazy width=320 height=320>
 </div>
-<div class="col-xl-6 profile-meta"><div class=profile-name>Akshay Bansod</div><div class=profile-bio>Developer</div><div class=profile-company><i class="fas fa-fw fa-building"></i>ThoughtWorks</div><div class=profile-location><i class="fas fa-fw fa-map-marker-alt"></i>Earth</div><div class=profile-about><i class="fas fa-fw fa-info-circle"></i><a target=_blank rel="noopener noreferrer" href=https://www.linkedin.com/in/akshaybansod>About Me</a></div></div>
+<div class="col-xl-6 profile-meta"><div class=profile-name>Akshay Bansod</div><div class=profile-bio>Developer</div><div class=profile-company><i class="fas fa-fw fa-building"></i>ThoughtWorks</div><div class=profile-location><i class="fas fa-fw fa-map-marker-alt"></i>Earth</div><div class=profile-about><i class="fas fa-fw fa-user"></i><a target=_blank rel="noopener noreferrer" href=https://www.linkedin.com/in/akshaybansod>About Me</a></div></div>
 </section>
-<section class="recent-posts row surface">
-<h4>Recent Posts</h4>
+<section class="recent-posts row card component">
+<div class=card-body>
+<h2 class=card-title>Recent Posts</h2>
 <ul><li><a href=/posts/designing-system-for-elastic-load/>Designing Application for Elastic Load, Not Predictive Load
 </a></li></ul>
-</section><section class="taxonomy-categories row surface">
-<h4>
+</div>
+</section><section class="taxonomies row card component">
+<div class=card-body>
+<h2 class=card-title>
 <a href=/categories>Categories</a>
-</h4>
-<div><a href=/categories/architecture/ class="post-taxonomy rounded btn btn-sm me-2 mb-2" title=Architecture>
-Architecture <span class="badge rounded-pill">1</span>
+</h2>
+<div><a href=/categories/architecture/ class="post-taxonomy rounded btn btn-sm btn-outline-primary me-2 mb-2" title=Architecture>
+Architecture
 </a></div>
-</section><section class="taxonomy-tags row surface">
-<h4>
+</div>
+</section><section class="taxonomies row card component">
+<div class=card-body>
+<h2 class=card-title>
 <a href=/tags>Tags</a>
-</h4>
-<div><a href=/tags/distributed-systems/ class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="Distributed Systems">
-Distributed Systems <span class="badge rounded-pill">1</span>
-</a><a href=/tags/system-design/ class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="System Design">
-System Design <span class="badge rounded-pill">1</span>
+</h2>
+<div><a href=/tags/distributed-systems/ class="post-taxonomy rounded btn btn-sm btn-outline-primary me-2 mb-2" title="Distributed Systems">
+Distributed Systems
+</a><a href=/tags/system-design/ class="post-taxonomy rounded btn btn-sm btn-outline-primary me-2 mb-2" title="System Design">
+System Design
 </a></div>
-</section></div>
+</div>
+</section>
+</div>
 </aside>
 </div>
 </main><footer class="footer mt-auto py-3 text-center container"><nav class="social-links nav my-2 justify-content-center"></nav>
@@ -304,8 +333,7 @@ System Design <span class="badge rounded-pill">1</span>
 Copyright © 2020-2021 Akshay Bansod. All Rights Reserved.
 </div>
 </footer>
-<a id=btnScrollToTop class=btn-scroll-to-top>
-<i class="fas fa-fw fa-chevron-circle-up fa-2x"></i>
-</a>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','G-ZC30LSGESM','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
 </body>
 </html>
