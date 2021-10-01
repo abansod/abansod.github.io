@@ -16,7 +16,7 @@ paginate = 5
 # disqusShortname = "abansod"
 
 # Google analytics
-googleAnalytics = "G-ZC30LSGESM"
+# googleAnalytics = "G-ZC30LSGESM"
 
 enableRobotsTXT = true
 
