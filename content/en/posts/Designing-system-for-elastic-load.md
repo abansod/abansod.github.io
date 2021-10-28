@@ -116,7 +116,7 @@ network or organization perimeter.
 
 ## Distributed logging
 
-Troubleshooting and debugging issues are in the microservice architecture are difficult as requests and responses pass
+Troubleshooting and debugging issues in the microservice architecture are difficult as requests and responses pass
 through multiple systems. A centralized and externalized logging system is used for all the logs. All microservice sends
 log messages with a Correlation ID to the logging system, where system logs are analyzed.
 
