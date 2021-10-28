@@ -11,7 +11,7 @@
 <meta name=description content><meta itemprop=name content="Designing application for elastic load, not predictive load">
 <meta itemprop=description content><meta itemprop=datePublished content="2021-09-22T16:09:51+05:30">
 <meta itemprop=dateModified content="2021-09-22T16:09:51+05:30">
-<meta itemprop=wordCount content="990">
+<meta itemprop=wordCount content="1029">
 <meta itemprop=keywords content="System Design,Distributed Systems,"><meta property="og:title" content="Designing application for elastic load, not predictive load">
 <meta property="og:description" content>
 <meta property="og:type" content="article">
@@ -215,6 +215,7 @@ component&rsquo;s performance, as resources are shared. Whereas each microservic
 <p>On-premise traditional deployment is not scalable under unpredicted high load, as limited resources are kept reserved
 for such incidents. It is recommended to use Modern Clouds like AWS, Azure, GCP, etc. These cloud providers offer high
 availability and provision to scale applications automatically under high load.</p>
+<p>Auto-scaling is a popular feature, used for highly scalable systems. Where application replicas are scaled up or down automatically based on load</p>
 <h2 id=polyglot-persistence>Polyglot Persistence</h2>
 <p>The microservice architecture enables building each microservice to have a different programming language and
 persistence. A microservice could use different persistence storage for data based on query or requirement. For example,
@@ -253,7 +254,8 @@ blocking I/O operation. Hence system I/O throughput increases, the system could 
 <h2 id=deployment-with-immutable-infrastructure>Deployment with Immutable Infrastructure</h2>
 <p>An immutable infrastructure is an approach where a newer version of application deployment replaces the previous version
 rather than updating it.</p>
-<p>Rolling-Update and Recreate are popular strategies for deployments.</p>
+<p>In immutable infrastructure, always new container or VM or hardware is provisioned for new version of application.</p>
+<p><strong>Rolling-Update</strong> and <strong>Recreate</strong> are popular strategies for deployments.</p>
 <p><img class=img-fluid alt="immutable Infrastructure" src=/images/Immutable_Infrastructure.png loading=lazy width=849 height=234>
 </p>
 <h2 id=zero-trust-architecture-for-security>Zero trust architecture for security</h2>
