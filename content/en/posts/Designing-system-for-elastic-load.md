@@ -18,7 +18,6 @@ system for predictive load is not a good approach, as it is hard to predict the 
 these challenges, systems are designed to handle the elastic load, which could sustain under high load and still be
 responsive to requests.
 
-
 Below are some points to consider for making the system highly scalable for the elastic load.
 
 ## Adopting Microservice Architecture
@@ -46,6 +45,8 @@ using microservice architecture are -
 On-premise traditional deployment is not scalable under unpredicted high load, as limited resources are kept reserved
 for such incidents. It is recommended to use Modern Clouds like AWS, Azure, GCP, etc. These cloud providers offer high
 availability and provision to scale applications automatically under high load.
+
+Auto-scaling is a popular feature, used for highly scalable systems. Where application replicas are scaled up or down automatically based on load
 
 ## Polyglot Persistence
 
@@ -94,7 +95,9 @@ blocking I/O operation. Hence system I/O throughput increases, the system could 
 An immutable infrastructure is an approach where a newer version of application deployment replaces the previous version
 rather than updating it.
 
-Rolling-Update and Recreate are popular strategies for deployments.
+In immutable infrastructure, always new container or VM or hardware is provisioned for new version of application.
+
+**Rolling-Update** and **Recreate** are popular strategies for deployments.
 
 ![immutable Infrastructure](./images/Immutable_Infrastructure.png)
 
@@ -129,7 +132,6 @@ MTBF and MTTR are popular parameters to measure the system reliability of repair
 > MTTR (mean-time-to-recover) is used to predict the expected time to recover after failure.
 
 ## Conclusion
-
 Designing application for elastic load makes the system complex and increases development and maintenance costs. Not all
 applications require to handle the elastic load. Some applications are built for a smaller user group e.g. employee
 management system, where it is unlikely to have a high load, as the increase in employees will not happen overnight.
