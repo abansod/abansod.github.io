@@ -12,8 +12,8 @@ defaultContentLanguage = "en"
 paginate = 5
 # paginatePath = "page"
 
-# Disqus
-# disqusShortname = "abansod"
+[Disqus]
+disqusShortname = "@abansod"
 
 # Google analytics
 # googleAnalytics = "G-ZC30LSGESM"
