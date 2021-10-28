@@ -3,7 +3,7 @@ avatar = "images/profile.jpeg" # Avatar image. Default to "images/profile.webp".
 bio = "Developer"
 company = "ThoughtWorks"
 location = "Earth"
-about = "https://www.linkedin.com/in/akshaybansod" # The external about page. The internal about page will be used if not set.
+# about = "https://www.linkedin.com/in/akshaybansod" # The external about page. The internal about page will be used if not set.
 
 [params]
 #   layout = "compact"
