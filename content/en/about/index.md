@@ -14,6 +14,6 @@ Hello,
 My name is Akshay Bansod.
 I'm software architect and developer from Pune, India
 
-I am working at Thoughtworks as a Tech Lead.
+I work as a Tech Lead at ThoughtWorks.
 
 
