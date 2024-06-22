@@ -10,10 +10,11 @@ readingTime = false
 +++
 
 
-Hello, 
-My name is Akshay Bansod.
-I'm software architect and developer from Pune, India
+Hello, my name is Akshay Bansod. I’m a seasoned software architect and developer based in Pune, India. Currently, I serve as a Tech Lead at ThoughtWorks, bringing over 12 years of extensive experience in the tech industry to the table. 
 
-I work as Tech Lead at ThoughtWorks.
+Throughout my career, I have excelled as a Domain Architect, Solution Architect, and Tech Lead, consistently demonstrating my expertise in designing and implementing scalable solutions.
+
+My specialty lies in crafting highly scalable, event-driven architecture with a particular focus on distributed systems. I work in a variety of programming languages and technologies, including Kotlin, Java, TypeScript, Kafka, Cassandra, DynamoDB, Solr, Kubernetes, and AWS cloud services. 
+
 
 
